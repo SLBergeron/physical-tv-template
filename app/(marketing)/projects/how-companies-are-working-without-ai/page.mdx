@@ -1,0 +1,48 @@
+import { BlogLayout } from "@/components/blog-layout";
+import Thumbnail from "./thumbnail.jpeg";
+
+export const blog = {
+  author: { name: "Frederick Light", src: "/Image-Profile-Frederick.jpeg" },
+  date: "2023-03-15",
+  title: "Medical Education Content: Making Complex Ideas Accessible",
+  description:
+    "How strategic storytelling helped a medical education platform translate complex clinical concepts into content that resonated with both professionals and curious learners.",
+  image: Thumbnail,
+};
+export const metadata = {
+  title: blog.title,
+  description: blog.description,
+  openGraph: {
+    images: [blog.image],
+  },
+};
+
+export default (props) => <BlogLayout blog={blog} {...props} />;
+
+## The Challenge
+
+A medical education organization had world-class experts but struggled to make their content engaging beyond specialized audiences. The challenge wasn't dumbing down the material—it was finding the narrative thread that made complexity compelling.
+
+## Content Strategy
+
+We developed a framework that separated technical depth from narrative accessibility. Every topic started with the human question behind the science—why does this matter? What changes when you understand it? Who benefits from this knowledge?
+
+## Storytelling Approach
+
+Rather than lectures, we structured content as investigations. Each piece followed a journey from curiosity to insight, using real cases, historical context, and contemporary applications to make abstract concepts tangible.
+
+## Production Design
+
+Visual systems that clarified rather than decorated. Editing rhythms that matched the cognitive load of material—giving viewers time to process complexity without losing momentum. Host presence that guided without pontificating.
+
+## Distribution Strategy
+
+Multi-platform approach that met audiences where they were: YouTube for long-form deep dives, Instagram for conceptual snippets, newsletter for written expansions. Each format played to platform strengths while maintaining content coherence.
+
+## Results
+
+Significant audience growth beyond medical professionals into curious generalists. Engagement metrics that exceeded industry standards for educational content. Partnership opportunities with medical institutions and health organizations. Recognition as a model for accessible medical education.
+
+## What We Learned
+
+The best educational content isn't about simplification—it's about structure. When you nail the narrative frame, complexity becomes compelling rather than intimidating. Expertise matters, but so does the ability to meet people where they are and guide them forward.

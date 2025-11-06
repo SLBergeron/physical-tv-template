@@ -1,0 +1,46 @@
+import { BlogLayout } from "@/components/blog-layout";
+import Thumbnail from "./thumbnail.jpeg";
+
+export const blog = {
+  author: { name: "Frederick Light", src: "/Image-Profile-Frederick.jpeg" },
+  date: "2023-09-20",
+  title: "Brand Positioning for Emerging Health Tech",
+  description:
+    "Strategic advisory on how a health technology startup found their voice in a crowded market by focusing on the human story behind the data.",
+  image:
+    "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+};
+
+export const metadata = {
+  title: blog.title,
+  description: blog.description,
+  openGraph: {
+    images: [blog.image],
+  },
+};
+
+export default (props) => <BlogLayout blog={blog} {...props} />;
+
+## The Challenge
+
+A health technology company had breakthrough science but struggled to communicate their value beyond technical specifications. They needed positioning that bridged clinical credibility with consumer accessibility.
+
+## Our Approach
+
+We focused on mapping the landscape: identifying where similar brands lived, where gaps existed, and most importantly, where their unique insight could create new ground. The work was less about marketing language and more about strategic clarity.
+
+## Finding the Frame
+
+Through stakeholder interviews and market analysis, we identified that most competitors led with technology. We positioned the brand around outcomes and human transformation—using the tech as proof, not promise.
+
+## Implementation
+
+Brand architecture that separated clinical validation from consumer messaging. A content strategy that educated without overwhelming. Partnership frameworks that extended credibility through alignment rather than endorsement.
+
+## Results
+
+Clear differentiation in a crowded market. Investor confidence that led to successful funding rounds. Media coverage that positioned them as thought leaders, not just another health tech startup. Most importantly, customer acquisition that grew through word-of-mouth and organic discovery.
+
+## What We Learned
+
+The best positioning doesn't try to own a category—it creates a new frame that makes the category irrelevant. When you nail the insight, the messaging writes itself.
