@@ -5,6 +5,8 @@ import {
   IconVideo,
   IconUsersGroup,
 } from "@tabler/icons-react";
+import { Heading } from "./heading";
+import { Subheading } from "./subheading";
 
 export const GridFeatures = () => {
   const features = [
@@ -33,10 +35,16 @@ export const GridFeatures = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  relative z-10 py-10">
-      {features.map((feature, index) => (
-        <Feature key={feature.title} {...feature} index={index} />
-      ))}
+    <div className="relative z-10 py-10">
+      <Heading as="h2">From Attention to Impact</Heading>
+      <Subheading className="text-center max-w-lg mx-auto">
+        What happens when strategy, story, and systems align.
+      </Subheading>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-16">
+        {features.map((feature, index) => (
+          <Feature key={feature.title} {...feature} index={index} />
+        ))}
+      </div>
     </div>
   );
 };

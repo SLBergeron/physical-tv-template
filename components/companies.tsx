@@ -9,38 +9,38 @@ export const Companies = () => {
   let [logos, setLogos] = useState([
     [
       {
-        title: "amazon",
-        src: "/logos/amazon.png",
+        title: "Amazon Prime Video",
+        src: "/logos/primevideo.png",
       },
       {
-        title: "uber",
-        src: "/logos/uber.png",
+        title: "Procter & Gamble",
+        src: "/logos/P&G.png",
       },
       {
-        title: "vercel",
-        src: "/logos/vercel.png",
+        title: "Degree",
+        src: "/logos/Degree.png",
       },
       {
-        title: "google",
-        src: "/logos/google.webp",
+        title: "MyProtein",
+        src: "/logos/MyProtein.png",
       },
     ],
     [
       {
-        title: "netflix",
-        src: "/logos/netflix.png",
+        title: "Iccha Fine Jewellery",
+        src: "/logos/iccha.png",
       },
       {
-        title: "meta",
-        src: "/logos/meta.png",
+        title: "Macy's",
+        src: "/logos/Macys.png",
       },
       {
-        title: "digital ocean",
-        src: "/logos/digital-ocean.svg",
+        title: "BodyRock",
+        src: "/logos/BodyRock.png",
       },
       {
-        title: "amazon second",
-        src: "/logos/amazon.png",
+        title: "A5",
+        src: "/logos/A5.png",
       },
     ],
   ]);
@@ -72,7 +72,7 @@ export const Companies = () => {
         Building frameworks for brands and creators across media, wellness, and culture.
       </Subheading>
 
-      <div className="grid grid-cols-2 gap-10 justify-items-center md:flex md:gap-40 md:justify-center relative h-full w-full mt-20">
+      <div className="grid grid-cols-2 gap-10 justify-items-center md:flex md:gap-40 md:justify-center relative h-full w-full mt-20 p-8 md:p-12 rounded-3xl bg-neutral-100 dark:bg-neutral-300/80 shadow-derek dark:shadow-[0_0_50px_rgba(255,255,255,0.3),0_0_100px_rgba(255,255,255,0.15)]">
         <AnimatePresence
           mode="popLayout"
           onExitComplete={() => {
